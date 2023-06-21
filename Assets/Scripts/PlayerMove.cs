@@ -32,6 +32,7 @@ public class PlayerMove : MonoBehaviour
 
         Vector3 dir = new Vector3(h, 0, v);
 
+        dir = Camera.main.transform.TransformDirection(dir);
         yVelocity += gravity * Time.deltaTime;
 
         //Player가 바닥에 있느냐 
