@@ -48,7 +48,7 @@ public class PlayerMove : MonoBehaviour
             jumping = true;
         }
 
-        print($"yVelocity {yVelocity}");
+      //  print($"yVelocity {yVelocity}");
         dir.y = yVelocity;
 
 
